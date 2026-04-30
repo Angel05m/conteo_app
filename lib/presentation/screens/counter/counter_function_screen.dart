@@ -49,6 +49,7 @@ class _CounterFunctionScreenState extends State<CounterFunctionScreen> {
         onPressed: () {
           setState(() {
             // Funcion para incrementar el contador
+            // Otro comentario
             clickCounter++;
           });
         },
