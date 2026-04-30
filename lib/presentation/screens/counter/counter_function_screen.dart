@@ -48,6 +48,7 @@ class _CounterFunctionScreenState extends State<CounterFunctionScreen> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           setState(() {
+            // Funcion para incrementar el contador
             clickCounter++;
           });
         },
